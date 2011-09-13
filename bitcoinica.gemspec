@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andy LeClair"]
   s.date = %q{2011-09-13}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{ActiveResource-based wrapper for the REST Bitcoinica API}
   s.email = %q{andy.leclair@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -41,7 +41,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.7.2}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{A Ruby wrapper to the Bitcoinica API}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
