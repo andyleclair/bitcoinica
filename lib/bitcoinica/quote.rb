@@ -8,9 +8,6 @@ module Bitcoinica
       end
 
       def history(currency_pair = 'BTCUSD', n = 100)
-        if n > 1000 || n < 0
-          raise ArgumentError, 'Length of history must be 0 < n 100'
-        end
         find(:all, from: "#{self.site}/quotes/#{currency_pair}/history.json", params: { n: n })
       end
 
