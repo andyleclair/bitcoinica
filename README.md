@@ -1,6 +1,24 @@
-= bitcoinica
+Bitcoinica
+==========
 
-Description goes here.
+Wrapper for the Bitcoinica API.  For general usage, see their API docs:
+
+https://www.bitcoinica.com/pages/api
+
+Usage
+-----
+
+Authenticating
+    Bitcoinica::Connection.authenticate!(username, password)
+
+Creating an order
+    order = Bitcoinica::Order.new(pair: 'BTCUSD', type: 'LIMIT', 
+                                  price: '15', amount: '5')
+    order.save
+
+Cancelling an order
+    order = Bitcoinica::Order.find(id)
+    order.delete
 
 == Contributing to bitcoinica
  
