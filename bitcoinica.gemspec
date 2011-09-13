@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "bitcoinica.gemspec",
     "lib/bitcoinica.rb",
     "lib/bitcoinica/account.rb",
     "lib/bitcoinica/candlesticks.rb",
