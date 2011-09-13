@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bitcoinica"
   gem.homepage = "http://github.com/andyleclair/bitcoinica"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "A Ruby wrapper to the Bitcoinica API"
+  gem.description = "ActiveResource-based wrapper for the REST Bitcoinica API"
   gem.email = "andy.leclair@gmail.com"
   gem.authors = ["Andy LeClair"]
   # dependencies defined in Gemfile
