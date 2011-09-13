@@ -15,7 +15,7 @@ module Bitcoinica
       end
 
       def exchange_style(currency_pair = 'BTCUSD')
-        find(:all, from: "#{self.site}/quotes/{currency_pair}/compatible.json")
+        find(:all, from: "#{self.site}/quotes/#{currency_pair}/compatible.json")
       end
 
     end
