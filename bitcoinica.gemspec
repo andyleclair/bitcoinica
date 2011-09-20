@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{bitcoinica}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andy LeClair"]
-  s.date = %q{2011-09-13}
+  s.date = %q{2011-09-20}
   s.description = %q{ActiveResource-based wrapper for the REST Bitcoinica API}
   s.email = %q{andy.leclair@gmail.com}
   s.extra_rdoc_files = [
@@ -32,7 +32,6 @@ Gem::Specification.new do |s|
     "lib/bitcoinica/order.rb",
     "lib/bitcoinica/position.rb",
     "lib/bitcoinica/quote.rb",
-    "lib/connection.rb",
     "test/helper.rb",
     "test/quote_test.rb",
     "test/test_bitcoinica.rb"
