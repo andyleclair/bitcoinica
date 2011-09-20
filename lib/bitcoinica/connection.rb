@@ -3,6 +3,7 @@ module Bitcoinica
       self.site = 'https://www.bitcoinica.com/api/'
       self.format = :json
       self.timeout = 5
+      self.include_root_in_json = false
 
       class << self
         def authenticate!(username, password)
